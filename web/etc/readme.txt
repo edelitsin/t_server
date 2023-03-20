@@ -5,3 +5,7 @@
 3)sudo sh init.sh
 
 Готово! Можно отправлять.
+
+из папки web запустить это:
+
+sudo gunicorn -b 0.0.0.0:8080 hello:wsgi_app
